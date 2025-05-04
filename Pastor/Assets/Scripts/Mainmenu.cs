@@ -2,15 +2,11 @@ using UnityEngine;
 
 public class Mainmenu : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public void Startgame()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+         void ChangeScene()
+        {
+            Scenemanager.LoadScene("level 1")
+        }
     }
 }
