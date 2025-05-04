@@ -5,6 +5,7 @@ public class EnemyStateManager : MonoBehaviour
 {
     [SerializeField] NavMeshAgent navMeshAgent;
     [SerializeField] Transform player;
+    [SerializeField] public Animator animator;
     Transform target;
     BaseState currentState;
     public AgroState agroState = new AgroState();
@@ -42,5 +43,13 @@ public class EnemyStateManager : MonoBehaviour
     public float DistToTarget()
     {
         return (transform.position - target.transform.position).magnitude;
+    }
+    public void Attackstop()
+    {
+        if (DistToTarget() > 1.7)
+        {
+            SwitchState(agroState);
+            return;
+        }
     }
 }

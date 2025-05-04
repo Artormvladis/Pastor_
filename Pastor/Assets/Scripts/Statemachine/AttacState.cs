@@ -5,6 +5,7 @@ public class AttacState : BaseState
     public override void EnterState(EnemyStateManager manager)
     {
         manager.SetSpeed(0);
+        manager.animator.SetBool("IsAttack", true);
     }
     public override void ExitState(EnemyStateManager manager)
     {
@@ -12,10 +13,6 @@ public class AttacState : BaseState
     }
     public override void UpdateState(EnemyStateManager manager)
     {
-        if (manager.DistToTarget() > 3) 
-        {
-            manager.SwitchState(manager.agroState);
-            return;
-        }
+        
     }
 }

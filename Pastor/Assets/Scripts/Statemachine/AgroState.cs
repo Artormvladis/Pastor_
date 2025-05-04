@@ -4,7 +4,10 @@ public class AgroState : BaseState
 {
     public override void EnterState(EnemyStateManager manager)
     {
-        manager.SetSpeed(2);
+        manager.SetSpeed(1);
+        manager.animator.SetBool("IsPoisk", false);
+        manager.animator.SetBool("IsAttack", false);
+        manager.animator.SetBool("IsAgro", true);
     }
     public override void ExitState(EnemyStateManager manager)
     {
@@ -17,7 +20,7 @@ public class AgroState : BaseState
             manager.SwitchState(manager.poiskState);
             return;
         }
-        if (manager.DistToTarget() <= 3)
+        if (manager.DistToTarget() <= 1.7)
         {
             manager.SwitchState(manager.attacState);
             return;
