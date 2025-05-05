@@ -4,7 +4,7 @@ public class PoiskState : BaseState
 {
     public override void EnterState(EnemyStateManager manager)
     {
-        manager.SetSpeed(1);
+        manager.SetSpeed(0.5f);
         manager.animator.SetBool("IsPoisk", true);
     }
     public override void ExitState(EnemyStateManager manager)

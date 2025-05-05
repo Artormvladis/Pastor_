@@ -9,9 +9,9 @@ public class Knopkavnutri : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if (isPress1) return;
+        isPress1 = true;
         _canold.transform.position += new Vector3(-0.02f, 0, 0);
         _door1.transform.position += new Vector3(-1, 0, 0);
         _door2.transform.position += new Vector3(1, 0, 0);
-        isPress1 = true;
     }
 }
