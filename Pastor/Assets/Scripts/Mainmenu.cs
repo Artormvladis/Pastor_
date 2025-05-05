@@ -4,9 +4,6 @@ public class Mainmenu : MonoBehaviour
 {
     public void Startgame()
     {
-         void ChangeScene()
-        {
-            Scenemanager.LoadScene("level 1")
-        }
+        SceneManager.LoadScene("level 1");
     }
 }
