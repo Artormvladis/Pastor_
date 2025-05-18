@@ -1,16 +1,23 @@
 using UnityEngine;
-using UnityEngine.XR.Interaction.Toolkit.Inputs.Readers;
 
 public class Fire : MonoBehaviour
 {
-    [SerializeField] XRInputValueReader<float> m_TriggerInput;
-    [SerializeField] Rigidbody Bullet;
+    public GameObject bulletPrefab;
+    public Transform firePoint;
+    public float bulletForce = 20f;
 
-    void update()
+    void Update()
     {
-        if (m_TriggerInput != null)
+        if ()
         {
-            Bullet.AddForce(transform.forward * 1f);
+            Shoot();
         }
+    }
+
+    void Shoot()
+    {
+        GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+        Rigidbody rb = bullet.GetComponent<Rigidbody>();
+        rb.AddForce(firePoint.forward * bulletForce, ForceMode.Impulse);
     }
 }
