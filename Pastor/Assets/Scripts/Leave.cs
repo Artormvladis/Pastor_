@@ -4,6 +4,6 @@ public class Leave : MonoBehaviour
 {
     public void Endgame()
     {
-        Editor application.isplaying = false;
+        UnityEditor.EditorApplication.isPlaying = false;
     }
 }
