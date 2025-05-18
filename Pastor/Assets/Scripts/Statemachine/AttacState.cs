@@ -13,6 +13,6 @@ public class AttacState : BaseState
     }
     public override void UpdateState(EnemyStateManager manager)
     {
-        
+
     }
 }

@@ -504,7 +504,6 @@ GameObject:
   - component: {fileID: 288456152}
   - component: {fileID: 288456151}
   - component: {fileID: 288456150}
-  - component: {fileID: 288456149}
   m_Layer: 5
   m_Name: "\u0412\u044B\u0445\u043E\u0434 \u0438\u0437 \u0438\u0433\u0440\u044B"
   m_TagString: Untagged
@@ -532,18 +531,6 @@ RectTransform:
   m_AnchoredPosition: {x: 1, y: -0.85}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &288456149
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 288456147}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18f334f18f96f44d858819f4f3b075d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &288456150
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -588,9 +575,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 288456149}
+      - m_Target: {fileID: 11500000, guid: 7721424002628f14788332b1bfcaf5db, type: 3}
         m_TargetAssemblyTypeName: Mainmenu, Assembly-CSharp
-        m_MethodName: Startgame
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
