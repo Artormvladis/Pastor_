@@ -1,14 +1,17 @@
 using UnityEngine;
+using UnityEngine.XR.Intraction.Toolkit;
 
 public class Fire : MonoBehaviour
 {
     public GameObject bulletPrefab;
     public Transform firePoint;
     public float bulletForce = 20f;
+    public ActionBasedController controller;
 
     void Update()
     {
-        if ()
+        float triggerValue = controller.activeAction.action.ReadValue<float>();
+        if (triggerValue > 0.1f)
         {
             Shoot();
         }
