@@ -17,7 +17,7 @@ public class Fire : MonoBehaviour
 
     void Update()
     {
-        if (m_TriggerInput.ReadValue() > 0.1f && nfired && patrons>0 && m_GripInput.ReadValue() > 0.1f && DistToTarget() < 0.1)
+        if (m_TriggerInput.ReadValue() > 0.1f && nfired && patrons>0 && m_GripInput.ReadValue() > 0.1f && DistToTarget() < 0.1f)
         {
             Shoot();
             nfired = false;
@@ -26,6 +26,10 @@ public class Fire : MonoBehaviour
         if (m_TriggerInput.ReadValue() <= 0.1f)
         {
             nfired = true;
+        }
+        if (m_GripInput.ReadValue() > 0.1f && DistToTarget() < 0.1)
+        {
+            Win.score += 2500;
         }
     }
 

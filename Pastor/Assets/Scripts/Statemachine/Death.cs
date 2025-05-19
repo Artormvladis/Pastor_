@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SocialPlatforms.Impl;
 
 public class Death : BaseState
 {
@@ -6,6 +7,7 @@ public class Death : BaseState
     {
         manager.SetSpeed(0f);
         manager.animator.SetBool("Isdead", true);
+        Win.score += 100;
     }
     public override void ExitState(EnemyStateManager manager)
     {

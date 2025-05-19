@@ -65,6 +65,7 @@ public class EnemyStateManager : MonoBehaviour
         {
             HP = 0;
             SwitchState(death);
+            Win.score += 1000;
         }
         else if (HP > 0 )
         {
