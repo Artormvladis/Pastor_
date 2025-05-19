@@ -49,19 +49,24 @@ public class EnemyStateManager : MonoBehaviour
     }
     public void Attackstop()
     {
-        if (DistToTarget() > 1.7)
+        if (DistToTarget() > 1.7+HP)
         {
             SwitchState(agroState);
             return;
         }
-        if (DistToTarget() < 1.7)
+        if (DistToTarget() < 1.7+HP)
         {
-            SceneManager.LoadSceneAsync("Main menu");
+            SceneManager.LoadSceneAsync("Lose");
         }
     }
     public void OnTriggerEnter(Collider other)
     {
-        if (HP > 0)
+        if (!other.CompareTag("Bullet"))
+        {
+            HP = 0;
+            SwitchState(death);
+        }
+        else if (HP > 0 )
         {
             HP -= 1;
         }
