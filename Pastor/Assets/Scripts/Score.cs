@@ -1,11 +1,10 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Mainmenu : MonoBehaviour
+public class Score : MonoBehaviour
 {
-    public void Startgame()
+    public void Scoreleave()
     {
-        Win.score = 0;
         SceneManager.LoadSceneAsync("level 1");
     }
 }
