@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Unity projects\\Pastor\\Pastor\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{851CBD12-3AF4-6CCC-91D3-475153A0E37F}|Assembly-CSharp.csproj|f:\\unity projects\\pastor\\pastor\\assets\\scripts\\knopkavnutri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{851CBD12-3AF4-6CCC-91D3-475153A0E37F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\knopkavnutri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Knopkavnutri.cs",
+              "DocumentMoniker": "F:\\Unity projects\\Pastor\\Pastor\\Assets\\Scripts\\Knopkavnutri.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Knopkavnutri.cs",
+              "ToolTip": "F:\\Unity projects\\Pastor\\Pastor\\Assets\\Scripts\\Knopkavnutri.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Knopkavnutri.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T15:44:08.119Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
