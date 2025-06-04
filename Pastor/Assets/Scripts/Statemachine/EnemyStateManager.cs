@@ -15,6 +15,7 @@ public class EnemyStateManager : MonoBehaviour
     public PoiskState poiskState = new PoiskState();
     public IdleState idleState = new IdleState();
     public Death death = new Death();
+    bool attacked = false;
 
     public void SwitchState(BaseState newState)
     {
@@ -49,31 +50,36 @@ public class EnemyStateManager : MonoBehaviour
     }
     public void Attackstop()
     {
-        if (DistToTarget() > 1.7+HP)
+        if (DistToTarget() > 1.7 + HP)
         {
             SwitchState(agroState);
             return;
         }
-        if (DistToTarget() < 1.7+HP)
+        if (DistToTarget() < 1.7 + HP)
         {
             SceneManager.LoadSceneAsync("Lose");
         }
     }
     public void OnTriggerEnter(Collider other)
     {
-        if (!other.CompareTag("Bullet"))
+        if (other.CompareTag("Bullet"))
         {
             HP = 0;
             SwitchState(death);
             Win.score += 1000;
         }
-        else if (HP > 0 )
-        {
-            HP -= 1;
-        }
-        else
+        else if (HP == 0 && attacked)
         {
             SwitchState(death);
         }
+        else if (attacked)
+        {
+            HP -= 1;
+        }
+        attacked = false;
+    }
+    public void OnTriggerExit(Collider other)
+    {
+        attacked = true;
     }
 }

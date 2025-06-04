@@ -687,7 +687,6 @@ MonoBehaviour:
   _canold: {fileID: 1090872495}
   _door1: {fileID: 693122250}
   _door2: {fileID: 1198243247}
-  level: 3
 --- !u!65 &83432141
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -855,6 +854,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: f11bf7a9bb8ca404381a4495268b9a9e, type: 3}
       propertyPath: m_Name
       value: Heater (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: f11bf7a9bb8ca404381a4495268b9a9e, type: 3}
+      propertyPath: m_TagString
+      value: Weapon
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: f11bf7a9bb8ca404381a4495268b9a9e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1490,6 +1493,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CanOld_Damaged (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 17498f638ad3eb042b62190a076bf3bd, type: 3}
+      propertyPath: m_TagString
+      value: Weapon
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 17498f638ad3eb042b62190a076bf3bd, type: 3}
       propertyPath: m_LocalPosition.x
       value: 8.48
@@ -2067,6 +2074,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 6d51a84963428cf4b9aaabea531eb90f, type: 3}
       propertyPath: m_Name
       value: Pallet
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6d51a84963428cf4b9aaabea531eb90f, type: 3}
+      propertyPath: m_TagString
+      value: Weapon
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6d51a84963428cf4b9aaabea531eb90f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3513,7 +3524,6 @@ MonoBehaviour:
   _canold: {fileID: 1176736253}
   _door1: {fileID: 693122250}
   _door2: {fileID: 1198243247}
-  level: 3
 --- !u!65 &456736949
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4384,6 +4394,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SmallMetalicCase
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 57dda4a4650bc9c4fb20a93184dcad3d, type: 3}
+      propertyPath: m_TagString
+      value: Weapon
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 57dda4a4650bc9c4fb20a93184dcad3d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 22.918
@@ -4664,6 +4678,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 873633a15c0b1d34cae65552ce3620fa, type: 3}
       propertyPath: m_Name
       value: Keyboard
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 873633a15c0b1d34cae65552ce3620fa, type: 3}
+      propertyPath: m_TagString
+      value: Weapon
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 873633a15c0b1d34cae65552ce3620fa, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5008,6 +5026,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 17498f638ad3eb042b62190a076bf3bd, type: 3}
       propertyPath: m_Name
       value: CanOld_Damaged
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 17498f638ad3eb042b62190a076bf3bd, type: 3}
+      propertyPath: m_TagString
+      value: Weapon
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 17498f638ad3eb042b62190a076bf3bd, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5374,6 +5396,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 6d51a84963428cf4b9aaabea531eb90f, type: 3}
       propertyPath: m_Name
       value: Pallet (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6d51a84963428cf4b9aaabea531eb90f, type: 3}
+      propertyPath: m_TagString
+      value: Weapon
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6d51a84963428cf4b9aaabea531eb90f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7352,6 +7378,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Garbage Bin
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 86f94647b91659e4d941245a0d85ba93, type: 3}
+      propertyPath: m_TagString
+      value: Weapon
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 86f94647b91659e4d941245a0d85ba93, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.151
@@ -7631,6 +7661,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 17498f638ad3eb042b62190a076bf3bd, type: 3}
       propertyPath: m_Name
       value: CanOld_Damaged (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 17498f638ad3eb042b62190a076bf3bd, type: 3}
+      propertyPath: m_TagString
+      value: Weapon
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 17498f638ad3eb042b62190a076bf3bd, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8077,6 +8111,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TV_Retro
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: acefbd5184cbbca49b430b32c444ccee, type: 3}
+      propertyPath: m_TagString
+      value: Weapon
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3451118302482216456, guid: acefbd5184cbbca49b430b32c444ccee, type: 3}
     m_RemovedGameObjects: []
@@ -8403,6 +8441,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 252af556c6617a4458e79c0373d631de, type: 3}
       propertyPath: m_Name
       value: PC_Monitor
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 252af556c6617a4458e79c0373d631de, type: 3}
+      propertyPath: m_TagString
+      value: Weapon
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 252af556c6617a4458e79c0373d631de, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9965,7 +10007,6 @@ MonoBehaviour:
   _canold: {fileID: 4881840}
   _door1: {fileID: 693122250}
   _door2: {fileID: 1198243247}
-  level: 3
 --- !u!65 &1222075514
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10582,6 +10623,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: f11bf7a9bb8ca404381a4495268b9a9e, type: 3}
       propertyPath: m_Name
       value: Heater
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: f11bf7a9bb8ca404381a4495268b9a9e, type: 3}
+      propertyPath: m_TagString
+      value: Weapon
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: f11bf7a9bb8ca404381a4495268b9a9e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11490,6 +11535,20 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.61, y: 1.79, z: 0.43}
   m_Center: {x: 0, y: 0.91, z: 0}
+--- !u!114 &1503331454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1503331444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df9a0739a76df4d41b2ce94c4c22c8df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_gameObject: {fileID: 1503331444}
+  animator: {fileID: 1503331447}
 --- !u!1 &1530844539
 GameObject:
   m_ObjectHideFlags: 0
@@ -11709,6 +11768,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 6d51a84963428cf4b9aaabea531eb90f, type: 3}
       propertyPath: m_Name
       value: Pallet (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6d51a84963428cf4b9aaabea531eb90f, type: 3}
+      propertyPath: m_TagString
+      value: Weapon
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6d51a84963428cf4b9aaabea531eb90f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12043,6 +12106,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 7b44d744f6c37d441952d043e70b584c, type: 3}
       propertyPath: m_Name
       value: Barrel
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 7b44d744f6c37d441952d043e70b584c, type: 3}
+      propertyPath: m_TagString
+      value: Weapon
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7b44d744f6c37d441952d043e70b584c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12492,6 +12559,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 100154, guid: 765e2fde8c84f094e99304c6198491ea, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1503331452}
+    - targetCorrespondingSourceObject: {fileID: 100154, guid: 765e2fde8c84f094e99304c6198491ea, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1503331454}
   m_SourcePrefab: {fileID: 100100000, guid: 765e2fde8c84f094e99304c6198491ea, type: 3}
 --- !u!4 &1698450198 stripped
 Transform:
@@ -12714,7 +12784,7 @@ GameObject:
   - component: {fileID: 1757309827}
   - component: {fileID: 1757309826}
   - component: {fileID: 1757309825}
-  - component: {fileID: 1757309824}
+  - component: {fileID: 1757309828}
   m_Layer: 0
   m_Name: Cube (1)
   m_TagString: Untagged
@@ -12737,22 +12807,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 366422935}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1757309824
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1757309822}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fcc7f1b5e10dc0344b85929adf88ee98, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _canold: {fileID: 366422931}
-  _door1: {fileID: 693122250}
-  _door2: {fileID: 1198243247}
-  level: 2
 --- !u!65 &1757309825
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12827,6 +12881,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1757309822}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1757309828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1757309822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab3c7f6b3c063a042a7b66e400da727a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _canold: {fileID: 366422931}
+  _door1: {fileID: 693122250}
+  _door2: {fileID: 1198243247}
 --- !u!1 &1764701142
 GameObject:
   m_ObjectHideFlags: 0
@@ -13361,7 +13430,6 @@ MonoBehaviour:
   _canold: {fileID: 643656213}
   _door1: {fileID: 693122250}
   _door2: {fileID: 1198243247}
-  level: 3
 --- !u!65 &1890165700
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14090,6 +14158,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Heater (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: f11bf7a9bb8ca404381a4495268b9a9e, type: 3}
+      propertyPath: m_TagString
+      value: Weapon
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: f11bf7a9bb8ca404381a4495268b9a9e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 11.232
@@ -14434,6 +14506,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 100154, guid: 765e2fde8c84f094e99304c6198491ea, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2003497677}
+    - targetCorrespondingSourceObject: {fileID: 100154, guid: 765e2fde8c84f094e99304c6198491ea, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2003497679}
   m_SourcePrefab: {fileID: 100100000, guid: 765e2fde8c84f094e99304c6198491ea, type: 3}
 --- !u!1 &2003497669 stripped
 GameObject:
@@ -14552,6 +14627,20 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.61, y: 1.79, z: 0.43}
   m_Center: {x: 0, y: 0.91, z: 0}
+--- !u!114 &2003497679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2003497669}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df9a0739a76df4d41b2ce94c4c22c8df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_gameObject: {fileID: 2003497669}
+  animator: {fileID: 2003497670}
 --- !u!1 &2079708850
 GameObject:
   m_ObjectHideFlags: 0
@@ -14757,6 +14846,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 6d51a84963428cf4b9aaabea531eb90f, type: 3}
       propertyPath: m_Name
       value: Pallet (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6d51a84963428cf4b9aaabea531eb90f, type: 3}
+      propertyPath: m_TagString
+      value: Weapon
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6d51a84963428cf4b9aaabea531eb90f, type: 3}
       propertyPath: m_LocalPosition.x

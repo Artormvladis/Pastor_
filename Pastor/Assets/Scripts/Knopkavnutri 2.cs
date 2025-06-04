@@ -2,7 +2,7 @@ using Newtonsoft.Json.Bson;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Knopkavnutri : MonoBehaviour
+public class Knopkavnutri2 : MonoBehaviour
 {
     [SerializeField] GameObject _canold;
     [SerializeField] GameObject _door1;
@@ -19,6 +19,6 @@ public class Knopkavnutri : MonoBehaviour
     }
     void Levelchange()
     {
-        SceneManager.LoadSceneAsync("Win");
+        SceneManager.LoadSceneAsync("level 2");
     }
 }
