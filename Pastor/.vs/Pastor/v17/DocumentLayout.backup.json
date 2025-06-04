@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "F:\\Unity projects\\Pastor\\Pastor\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{851CBD12-3AF4-6CCC-91D3-475153A0E37F}|Assembly-CSharp.csproj|f:\\unity projects\\pastor\\pastor\\assets\\scripts\\knopkavnutri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{851CBD12-3AF4-6CCC-91D3-475153A0E37F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\knopkavnutri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{851CBD12-3AF4-6CCC-91D3-475153A0E37F}|Assembly-CSharp.csproj|f:\\unity projects\\pastor\\pastor\\assets\\scripts\\fire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{851CBD12-3AF4-6CCC-91D3-475153A0E37F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851CBD12-3AF4-6CCC-91D3-475153A0E37F}|Assembly-CSharp.csproj|f:\\unity projects\\pastor\\pastor\\assets\\scripts\\grab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{851CBD12-3AF4-6CCC-91D3-475153A0E37F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\grab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Knopkavnutri.cs",
-              "DocumentMoniker": "F:\\Unity projects\\Pastor\\Pastor\\Assets\\Scripts\\Knopkavnutri.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Knopkavnutri.cs",
-              "ToolTip": "F:\\Unity projects\\Pastor\\Pastor\\Assets\\Scripts\\Knopkavnutri.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Knopkavnutri.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAyAAAAAAAAAA==",
+              "Title": "Fire.cs",
+              "DocumentMoniker": "F:\\Unity projects\\Pastor\\Pastor\\Assets\\Scripts\\Fire.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Fire.cs",
+              "ToolTip": "F:\\Unity projects\\Pastor\\Pastor\\Assets\\Scripts\\Fire.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Fire.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T15:44:08.119Z",
+              "WhenOpened": "2025-06-04T19:31:13.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Grab.cs",
+              "DocumentMoniker": "F:\\Unity projects\\Pastor\\Pastor\\Assets\\Scripts\\Grab.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Grab.cs",
+              "ToolTip": "F:\\Unity projects\\Pastor\\Pastor\\Assets\\Scripts\\Grab.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Grab.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T16:26:51.209Z",
               "EditorCaption": ""
             }
           ]

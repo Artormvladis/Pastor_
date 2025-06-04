@@ -1,12 +1,54 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "F:\\Unity projects\\Pastor\\Pastor\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{851CBD12-3AF4-6CCC-91D3-475153A0E37F}|Assembly-CSharp.csproj|f:\\unity projects\\pastor\\pastor\\assets\\scripts\\fire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{851CBD12-3AF4-6CCC-91D3-475153A0E37F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851CBD12-3AF4-6CCC-91D3-475153A0E37F}|Assembly-CSharp.csproj|f:\\unity projects\\pastor\\pastor\\assets\\scripts\\grab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{851CBD12-3AF4-6CCC-91D3-475153A0E37F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\grab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Fire.cs",
+              "DocumentMoniker": "F:\\Unity projects\\Pastor\\Pastor\\Assets\\Scripts\\Fire.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Fire.cs",
+              "ToolTip": "F:\\Unity projects\\Pastor\\Pastor\\Assets\\Scripts\\Fire.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Fire.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwB8AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T19:31:13.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Grab.cs",
+              "DocumentMoniker": "F:\\Unity projects\\Pastor\\Pastor\\Assets\\Scripts\\Grab.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Grab.cs",
+              "ToolTip": "F:\\Unity projects\\Pastor\\Pastor\\Assets\\Scripts\\Grab.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Grab.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T16:26:51.209Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
