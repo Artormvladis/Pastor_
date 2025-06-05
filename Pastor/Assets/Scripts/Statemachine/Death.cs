@@ -13,6 +13,10 @@ public class Death : BaseState
         manager.SetSpeed(0f);
         manager.animator.SetBool("Isdead", true);
         Win.score += 100;
+        if (manager.CompareTag("miniboss"))
+        {
+            Win.score += 1000000;
+        }
     }
     public override void ExitState(EnemyStateManager manager)
     {

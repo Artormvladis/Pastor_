@@ -16,6 +16,7 @@ public class EnemyStateManager : MonoBehaviour
     public IdleState idleState = new IdleState();
     public Death death = new Death();
     bool attacked = false;
+    public static float minibossspeed = 0;
 
     public void SwitchState(BaseState newState)
     {
@@ -50,12 +51,12 @@ public class EnemyStateManager : MonoBehaviour
     }
     public void Attackstop()
     {
-        if (DistToTarget() > 1.7 + HP)
+        if (DistToTarget() > 1.7)
         {
             SwitchState(agroState);
             return;
         }
-        if (DistToTarget() < 1.7 + HP)
+        if (DistToTarget() < 1.7)
         {
             SceneManager.LoadSceneAsync("Lose");
         }

@@ -9,7 +9,7 @@ public class Destroy : MonoBehaviour
     {
         if (animator.GetBool("Isdead") == true)
         {
-            Destroy(m_gameObject, 10f);
+            Destroy(m_gameObject, 4f);
         }
     }
 }

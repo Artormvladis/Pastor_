@@ -4,7 +4,14 @@ public class AgroState : BaseState
 {
     public override void EnterState(EnemyStateManager manager)
     {
-        manager.SetSpeed(1.5f);
+        if (manager.CompareTag("miniboss"))
+        {
+            manager.SetSpeed(0.5f+EnemyStateManager.minibossspeed);
+        }
+        else
+        {
+            manager.SetSpeed(1.5f);
+        }
         manager.animator.SetBool("IsPoisk", false);
         manager.animator.SetBool("IsAttack", false);
         manager.animator.SetBool("IsAgro", true);
