@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Hierarchy
   m_RootView: {fileID: 7}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -51,7 +51,7 @@ MonoBehaviour:
   - {fileID: 15}
   - {fileID: 10}
   m_Selected: 0
-  m_LastSelected: 2
+  m_LastSelected: 1
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -97,8 +97,8 @@ MonoBehaviour:
     y: 0
     width: 246
     height: 941
-  m_MinSize: {x: 50, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 52, y: 76}
+  m_MaxSize: {x: 4002, y: 4026}
   m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 12}
@@ -156,7 +156,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 50}
   m_MaxSize: {x: 32384, y: 8096}
   vertical: 0
-  controlID: 129
+  controlID: 26
   draggingID: 0
 --- !u!114 &7
 MonoBehaviour:
@@ -456,10 +456,10 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 1746}
-      m_SelectedIDs: 18490300
-      m_LastClickedID: 215320
-      m_ExpandedIDs: cc08f8ff4c14f8ffc024f8ff442cf8ff109af8ff44d5f8ffc8d7f8ffa0e2f8ffd2e8f8ffdcfff8ffea02f9ff4050f9ff1e59f9ff828af9ff201ffaff6c22faffd227faffdc2cfaff2c3afaff2e3afaff7c9efaffc8abfaff62adfaff40b3faff82befaffd4c0faffaccbfaffa6cefaffc447fcff265afcff0ce1fcff2ce2fcff7a20fdff7c20fdffd240fdff2c54fdff6c56fdff0058fdff0663fdff5801feffa232feffda36feffe640feffb820ffffc620ffff7626ffff964fffff687effff6a7effff7090ffff7290ffffdc97ffff9a9bffffe8b5ffff6ebeffffd0c2ffffe4c2ffffeac2ffffecc2ffffeccaffff02d0ffff08d0ffff0ad0ffff0ed0fffff2ddffff1ae5ffff6eeaffff70eaffff1efbffff9abd000092e7000066e90000f62a01007ec80200
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: e2f6fefffaf6feffccfdfeff9000ffff3819ffffe01fffff1228ffff6e40ffff2084ffffd49bffffac9cffffbcb5ffff90b9ffff4ec1ffff9ecaffff1efbfffff0c00100ecc90100
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -521,7 +521,7 @@ MonoBehaviour:
     m_ContainerData: []
     m_OverlaysVisible: 1
   m_SearchFilter:
-    m_NameFilter: 
+    m_NameFilter: simula
     m_ClassNames: []
     m_AssetLabels: []
     m_AssetBundleNames: []
@@ -531,26 +531,26 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Robot_Soldier/Meshes
+    - Assets/Scenes
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
-    m_OriginalText: 
+    m_OriginalText: simula
     m_ImportLogFlags: 0
     m_FilterByTypeIntersection: 0
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Robot_Soldier/Meshes
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: F:\Unity projects\Pastor\Pastor
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 04eb0000
-    m_LastClickedID: 60164
-    m_ExpandedIDs: 0000000012d1000014d1000016d1000018d100001ad100001cd100001ed1000020d1000022d1000024d1000026d1000028d100002ad100002cd100002ed1000030d1000032d1000034d1000018d2000020d200000ceb0000a0f10000a2f10000a4f10000a6f1000000ca9a3b
+    m_SelectedIDs: fcda0000
+    m_LastClickedID: 56060
+    m_ExpandedIDs: 0000000020da000022da000024da000026da000028da00002ada00002cda00002eda000030da000032da000034da000036da000038da00003ada00003cda00003eda000040da000042da000044da000046da000048da00004ada00004cda0000f8da000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -579,7 +579,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000012d1000014d1000016d1000018d100001ad100001cd100001ed1000020d1000022d1000024d1000026d1000028d100002ad100002cd100002ed1000030d1000032d1000034d10000
+    m_ExpandedIDs: 0000000020da000022da000024da000026da000028da00002ada00002cda00002eda000030da000032da000034da000036da000038da00003ada00003cda00003eda000040da000042da000044da000046da000048da00004ada00004cda0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1146,9 +1146,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -17.376053, y: -7.4160438, z: 29.108372}
+    m_Target: {x: 14.544675, y: -6.889962, z: 29.434658}
     speed: 2
-    m_Value: {x: -17.376053, y: -7.4160438, z: 29.108372}
+    m_Value: {x: 14.544675, y: -6.889962, z: 29.434658}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1194,9 +1194,9 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.1381665, y: -0.23627324, z: 0.034882143, w: 0.96243066}
+    m_Target: {x: -0.14050204, y: -0.21496563, z: 0.031475402, w: -0.96719503}
     speed: 2
-    m_Value: {x: 0.13655902, y: -0.23604192, z: 0.034484655, w: 0.9614815}
+    m_Value: {x: -0.14033318, y: -0.21470727, z: 0.031437572, w: -0.9660326}
   m_Size:
     m_Target: 15.298776
     speed: 2
